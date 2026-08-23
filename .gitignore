@@ -1,0 +1,25 @@
+# Bağımlılıklar
+node_modules
+.pnpm-store
+
+# Derleme çıktıları
+dist
+dist-ssr
+*.local
+
+# Editor & Sistem dosyaları
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log dosyaları
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

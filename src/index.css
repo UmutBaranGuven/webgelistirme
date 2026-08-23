@@ -1,0 +1,47 @@
+/* Global Stil Tanımlamaları */
+:root {
+  --primary-font: 'Inter', system-ui, -apple-system, sans-serif;
+  --bg-gradient: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+body {
+  font-family: var(--primary-font);
+  background: var(--bg-gradient);
+  min-height: 100vh;
+  color: #2b2d42;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Yumuşak geçiş efektleri */
+.transition-all {
+  transition: all 0.25s ease-in-out;
+}
+
+/* Kart hover efektleri */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Kursör yardımcısı */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.select-none {
+  user-select: none;
+}
+
+/* Özel Font Boyutları */
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+/* Tıklanabilir buton aktifliği */
+.btn:active {
+  transform: scale(0.98);
+}
